@@ -1,0 +1,45 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp@latest"
+      ],
+      "env": {
+        "DEFAULT_MINIMUM_TOKENS": "10000"
+      },
+      "url": null,
+      "headers": null,
+      "fromGalleryId": "upstash.context7"
+    },
+    "pdf-reader-mcp": {
+      "command": "npx",
+      "args": [
+        "@sylphlab/pdf-reader-mcp"
+      ],
+      "env": {},
+      "fromGalleryId": "byted-mcp-volcengine.pdf-reader-mcp"
+    },
+    "Excel": {
+      "command": "npx",
+      "args": [
+        "--yes",
+        "@negokaz/excel-mcp-server"
+      ],
+      "env": {
+        "EXCEL_MCP_PAGING_CELLS_LIMIT": "4000"
+      },
+      "fromGalleryId": "byted-mcp-volcengine.3rd_party_mcp_server_excel"
+    },
+    "Playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@executeautomation/playwright-mcp-server"
+      ],
+      "env": {},
+      "fromGalleryId": "byted-mcp-volcengine.3rd_party_mcp_server_playwright"
+    }
+  }
+}

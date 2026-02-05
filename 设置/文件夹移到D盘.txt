@@ -1,0 +1,2 @@
+mklink /D "C:\Users\李杰\.trae-cn" "D:\TraeCache\.trae-cn"
+mklink /D "C:\Users\李杰\AppData\Roaming\Trae CN" "D:\TraeCache\Trae CN"

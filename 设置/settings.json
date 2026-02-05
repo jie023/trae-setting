@@ -1,0 +1,49 @@
+{
+    "redhat.telemetry.enabled": true,
+    "git.ignoreMissingGitWarning": true,
+    "editor.wordWrapColumn": 2000,
+    "diffEditor.wordWrap": "off",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "AI.toolcall.v2.ide.command.mode": "blacklist",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "D:\\jdk\\dragonwell-8.23.22"
+        },
+        {
+            "name": "JavaSE-11",
+            "path": "D:\\jdk\\dragonwell-11.0.25.21+9-GA"
+        },
+        {
+            "name": "JavaSE-17",
+            "path": "D:\\jdk\\dragonwell-17.0.13.0.14+9-GA"
+        },
+        {
+            "name": "JavaSE-21",
+            "path": "D:\\jdk\\dragonwell-21.0.5.0.5+9-GA"
+        }
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "AI.toolcall.v2.ide.mcp.autoRun": "alwaysRun",
+    "git.openRepositoryInParentFolders": "never",
+    "maven.settingsFile": "D:\\apache-maven-3.9.9\\conf\\settings.xml",
+    "maven.executable.path": "D:\\apache-maven-3.9.9\\bin\\mvn",
+    "editor.inlayHints.maximumLength": 0,
+    "java.format.settings.url": "D:\\TraeCache\\.trae-cn\\extensions\\redhat.java-1.52.0-win32-x64\\formatters\\eclipse-formatter.xml",
+    "java.format.settings.profile": "Eclipse",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "trae.terminal.autoOpenLocalLink.mode": "system",
+    "SAS.connectionProfiles": {
+        "activeProfile": "",
+        "profiles": {}
+    },
+    "playwright.pickLocatorCopyToClipboard": false,
+    "playwright.reuseBrowser": true,
+}
